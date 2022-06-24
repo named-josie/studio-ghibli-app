@@ -1,6 +1,16 @@
 
 
-.app {
+.wrapper {
+  display: flex;
+}
+
+
+.title-page {
+  font-family: 'Limelight', cursive;
   text-align: center;
 }
 
+p {
+ font-family: 'Shadows Into Light Two', cursive;
+ font-size: 20px;
+}

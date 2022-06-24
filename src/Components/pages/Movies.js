@@ -28,20 +28,20 @@ export default class Movies extends Component {
 
     return (
       <div className='movies'>
-        <h1>Select a movie</h1>
+        <h1 className='title-page'>Select a movie</h1>
 
         <select onChange={this.onChange}>
           <option></option>
           {movieTitle}
         </select>
-        <div>
+        <div className='movies'>
           {selected ? (
             <div>
               <h2>{selected.title}</h2>
               <img className='title-image' src={selected.image}></img>
-              <p>
-                <strong>Release Date:</strong> {selected.release_date}
-              </p>
+              <h3>
+               Release Date: {selected.release_date}
+              </h3>
               <p>
                 <strong>Description:</strong> {selected.description}
               </p>

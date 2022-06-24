@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Locations() {
   return (
-    <div>
-      <h1>List of Locations</h1>
+    <div className='locations'>
+      <h1 className='title-page'>List of Locations</h1>
       <button>first
           </button>
           <button>second</button>
