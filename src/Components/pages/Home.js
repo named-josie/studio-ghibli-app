@@ -1,11 +1,14 @@
-import React from 'react'
-export default function Home() {
-    return (
-        <section className="home-page">
-                <h1>WELCOME to Ghibli</h1>
-                <div>
-                </div>
-            
-        </section>
-    );
-  };
+import React from "react";
+
+ function Home() {
+  return (
+    <div className='home-page'>
+      <body>
+        <h1>Welcome to GhibliApp
+        </h1>
+        </body>
+    </div>
+  );
+}
+
+export default Home

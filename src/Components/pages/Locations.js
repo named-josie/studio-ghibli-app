@@ -1,7 +1,8 @@
 import React from 'react'
 
-export const Locations = () => {
+export default function Locations() {
   return (
     <div>Locations</div>
   )
 }
+
