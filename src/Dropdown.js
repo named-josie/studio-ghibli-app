@@ -1,13 +1,11 @@
-import React from 'react'
-
-
+import React from 'react';
 
 export const Dropdown = (props) => (
-  <div className="form-group">
+  <div className='form-group'>
     <strong>{props.title}</strong>
     <select
-      className="movie-titles"
-      name="{props.title}"
+      className='movie-titles'
+      name='{props.title}'
       onChange={props.onChange}
     >
       <option defaultValue>Select {props.title}</option>
@@ -18,4 +16,4 @@ export const Dropdown = (props) => (
       ))}
     </select>
   </div>
-)
+);
