@@ -34,15 +34,17 @@ export default class Movies extends Component {
           <option></option>
           {movieTitle}
         </select>
-        <div className='movies'>
+        <div>
           {selected ? (
-            <div>
-              <h2>{selected.title}</h2>
+            <div  className='selected-title'>
+              <div className='selected-title2' ><h2>{selected.title}</h2> </div> 
+              <br></br>
               <img className='title-image' src={selected.image}></img>
+              <br></br>
               <h3>
                Release Date: {selected.release_date}
               </h3>
-              <p>
+              <p className='description'>
                 <strong>Description:</strong> {selected.description}
               </p>
             </div>

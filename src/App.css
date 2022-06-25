@@ -1,13 +1,16 @@
 
 
 .wrapper {
-  display: flex;
+display: flex;
+flex-wrap: wrap;
+
+
 }
 
 
 .title-page {
   font-family: 'Limelight', cursive;
-  text-align: center;
+
 }
 
 p {
