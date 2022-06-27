@@ -14,4 +14,11 @@ code {
 
 *{
   margin: 0;
+
 }
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+

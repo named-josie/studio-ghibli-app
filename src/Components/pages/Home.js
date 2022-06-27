@@ -1,16 +1,17 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
+import './home.css';
 
-function Home() {
+export default function Home() {
   return (
     <div className='home-page'>
-      <body>
-        <h1 className='title-page'>Welcome to GhibliApp</h1>
-     <img src='https://e7.pngegg.com/pngimages/717/272/png-clipart-assorted-anime-character-art-ghibli-museum-studio-ghibli-poster-anime-studio-ghibli-ghibli-museum-studio-ghibli.png' alt='ghibli' ></img>
-     
-     
-      </body>
+      <h1 className='home-title'>Welcome to GhibliApp</h1>
+      {/* <Link to='/about' ></Link> */}
+      <img
+        className='home-logo'
+        src='https://66.media.tumblr.com/15924a6484e81c67167bc04287917ba9/tumblr_mfoibvy2v41rfjowdo1_500.gif'
+        alt='ghibli'
+      ></img>
     </div>
   );
 }
-
-export default Home;

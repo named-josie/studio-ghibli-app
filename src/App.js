@@ -6,7 +6,7 @@ import Movies from './Components/pages/Movies';
 import Locations from './Components/pages/Locations';
 import People from './Components/pages/People';
 
-function App() {
+export default function App() {
   return (
     <div className='App'>
       <NavBar />
@@ -16,10 +16,10 @@ function App() {
           <Route path='/locations' element={<Locations />} />
           <Route path='/movies' element={<Movies />} />
           <Route path='/people' element={<People />} />
+          {/* <Route path='/about' element={<About/>} /> */}
         </Routes>
       </div>
     </div>
   );
 }
 
-export default App;

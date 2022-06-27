@@ -1,3 +1,87 @@
-.search-icon {
-    height: 12px;
+
+
+.people-logo {
+    height: 75px;
+    position:fixed;
+    bottom:0px;
+    left:2%;
+  object-fit: contain;
 }
+
+.title-people {
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    color: #7db1c3;
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.input-container > input {
+    flex: 1;
+    border: none;
+    
+}
+
+.input-container {
+    display: flex;
+    width: 30%;
+    border: 1px solid #d3d3d3;
+    margin: auto;
+    margin-top: 15px;
+   
+}
+
+.input-button {
+    width: 50px !important;
+    background-color: #1bb6ce;
+    border-left: .5px solid #fff;
+    margin: auto;
+    font-family: 'Yatra One', cursive;
+    font-size: 14px;
+        color: #fff;
+        text-shadow:
+            0 0 7px #f6ff00,
+            0 0 10px #f6ff00,
+            0 0 21px #f6ff00,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+          border-radius: 2px;
+      }
+    
+
+
+
+    .people{
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+        justify-content: center;
+        background-color: #f6f69faa;
+        border-radius: 5px;
+    }
+
+
+    .charactersDetails {
+       margin-top: 30px;
+        margin-left: 35%;
+        padding-bottom: 5%;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 30px;
+       color:  #34bf9596;
+    }
+
+    .not-found {
+        font-family: 'Yatra One', cursive;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 5%;
+        padding: 10%;
+        color: #7db1c3;
+    }
+
+    .char{
+        margin-bottom: 10px;
+    }

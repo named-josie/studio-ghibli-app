@@ -20,7 +20,7 @@ export default function NavBar() {
           <div className='linked'>People</div>
         </Link>
         <Link to='/movies'>
-          <div className='linked' >Movies</div>
+          <div className='linked'>Movies</div>
         </Link>
         <Link to='/locations'>
           <div className='linked' >Locations</div>

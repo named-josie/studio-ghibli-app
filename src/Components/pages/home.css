@@ -1,0 +1,30 @@
+.home-page {
+    background: url('https://studioghiblimovies.com/wp-content/uploads/2020/03/Eboshi-700x500.jpg');
+    background-size: auto;
+    background-position-x: center;
+   opacity: .7;
+   padding: 20px;
+    
+
+
+
+}
+.home-title {
+    padding-top: 10px;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 60px;
+    color: #3c50a8;
+    text-align: center;
+
+}
+
+
+
+
+.home-logo {
+  height: 100px;
+  position:fixed;
+  bottom:0px;
+  right:2%;
+  object-fit: contain;
+}

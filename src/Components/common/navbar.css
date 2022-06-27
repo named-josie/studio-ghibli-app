@@ -5,9 +5,7 @@
     padding: 10px;
     position: sticky;
     top: 0;
-    z-index: 999;
-   background-color: #f4aae5;
-   margin-bottom: 10px;
+   background-color: #7db1c3;
 }
 
 
@@ -15,14 +13,14 @@
     height: 50px;
     object-fit: contain;
 }
+/* I understand it needs to be height 50px and width 50 px but I believe it to be too small ghilbi is too beautiful to hide  */
+
+
 
 .linked {
-    font-family: 'Limelight', cursive;
-    font-size: x-large;
-    
+    font-family: 'Yatra One', cursive;
+    font-size: x-large; 
 }
 
+a:link { text-decoration: none; }
 
-.people {
-    
-}

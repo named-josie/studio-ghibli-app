@@ -1,24 +1,98 @@
-.title-image{
-    height: 400px;
-}
-
-.selected-title {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-top: 10%;
-background-color: #c0fdf0;
-}
-
-.movies {
-   flex-direction: column;
-   
+.movie-image{
+    height: 350px; 
+    flex-basis: 40%;
+    padding-left: 2%;
+    transition: transform .5s
    
 }
+.movie-image:hover {
+    transform: scale(1.5);
+  }
 
-.selected-title2 {
-    margin-top: 10%;
+.description{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: larger;
+    color: #1f57e6b9;
+    font-weight: 700;
+}
+
+.movie-release {
+    vertical-align: text-top;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: #1f57e6;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+   
+    
+}
+
+.movies{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: center;
+    background-color: #92d4ea3b;
     margin-bottom: 10%;
+    border-radius: 5px;
+    
+}
+
+
+.title-movie {
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    color: #8f2abeb0;
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.dropdown > input {
+    flex: 1;
+    border: none;
+    
+}
+
+.dropdown {
+    display: flex;
+    width: 35%;
+    border: 1px solid #d3d3d3;
+    margin: auto;
+    margin-top: 10px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+.movie-title {
+    font-family: 'Eagle Lake', cursive;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #d480c9b2;
+}
+
+
+.original-title{
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 1%;
+    color: #d480c9b2;
+}
+
+.movie-logo {
+    height: 100px;
+    position:fixed;
+    bottom:0px;
+    right:2%;
+  object-fit: contain;
 }
