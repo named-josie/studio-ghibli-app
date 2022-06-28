@@ -19,7 +19,10 @@
 .input-container > input {
     flex: 1;
     border: none;
-    
+    color: #ff00c3cb;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 22px;
+    text-align: center;
 }
 
 .input-container {
@@ -28,6 +31,7 @@
     border: 1px solid #d3d3d3;
     margin: auto;
     margin-top: 15px;
+    
    
 }
 
@@ -55,9 +59,9 @@
     background-color: #70e3ce;
     color: #fff;
         text-shadow:
-            0 0 7px #ae00ff,
-            0 0 10px #ae00ff,
-            0 0 21px #ae00ff,
+            0 0 7px #ff00c3,
+            0 0 10px #ff00c3,
+            0 0 21px #ff00c3,
             0 0 42px #0fa,
             0 0 82px #0fa,
             0 0 92px #0fa,
@@ -83,7 +87,7 @@
         padding-bottom: 5%;
         font-family: 'Big Shoulders Display', cursive;
         font-size: 30px;
-       color:  #34bf9596;
+       color:  #ff48f9ad;
     }
 
     .not-found {
